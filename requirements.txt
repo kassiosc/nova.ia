@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn[standard]
+pydantic
+psutil
+requests
+python-dotenv
+Send2Trash
+pywebview
+pyinstaller

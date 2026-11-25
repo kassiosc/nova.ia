@@ -1,0 +1,44 @@
+﻿# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Compilação
+build/
+work/
+instalador/build/
+instalador/work/
+instalador/payload/
+
+# Backups
+backups/
+backup-finalizacao/
+*.backup*
+*.bak
+
+# Executáveis e arquivos gerados
+*.exe
+*.dll
+*.pyd
+*.spec.backup*
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+!backend/.env.example
